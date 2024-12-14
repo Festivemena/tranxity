@@ -14,7 +14,7 @@ export default function MapView() {
   ];
 
   return (
-    <section className="mobile-only h-screen relative">
+    <section className="mobile-only h-[65%] relative">
       <Map
         mapboxAccessToken="pk.eyJ1IjoiaW5ub3ZhdG9yMjkiLCJhIjoiY20zZHV5OWVmMDZpbjJrcXVjYzBzMTFjYSJ9.51Yp-Wox2UTzc6aEZyG1OQ"
         initialViewState={{

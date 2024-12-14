@@ -31,8 +31,8 @@ export default function Hero() {
       <p className="text-lg md:text-xl mb-6">
         Discover affordable and eco-friendly bicycles for your everyday needs.
       </p>
-      <button className="bg-dark text-light px-6 py-3 -mt-3 rounded-lg text-lg hover:shadow-2xl hover:flex-grow shadow-lg hover:bg-opacity-90">
-        Get Started
+      <button className="bg-dark block md:hidden text-light px-6 py-3 -mt-3 rounded-lg text-lg hover:shadow-2xl hover:flex-grow shadow-lg hover:bg-opacity-90">
+        Select Location
       </button>
     </section>
   );
