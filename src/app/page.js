@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="desktop-only">
+      <div className="">
         <Hero />
         <Features />
         <Footer />

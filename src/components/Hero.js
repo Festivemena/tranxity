@@ -15,15 +15,15 @@ export default function Hero() {
       ></div>
 
       {/* Mobile Image */}
-      <div className="flex lg:hidden mb-8">
-        <Image
-          src={"/hero.jpg"}
-          width={500} // Increased width
-          height={700} // Increased height
-          alt="Hero"
-          className="rounded-lg"
-        />
-      </div>
+      <div
+        className="block lg:hidden absolute inset-0 -z-10 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('/hero.jpg')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "350px",
+        }}
+      ></div>
 
       <h1 className="text-4xl md:text-6xl pt-16 font-bold mb-4">
         Ride Freely with Tranxity

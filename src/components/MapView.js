@@ -46,7 +46,7 @@ export default function MapView() {
         ))}
       </Map>
 
-      {/* <div className="absolute bottom-0 w-full bg-white pb-6 rounded-t-3xl shadow-lg">
+      <div className="absolute bottom-20 w-full bg-white pb-6 rounded-t-3xl shadow-lg">
         <h2 className="text-lg font-bold text-primary mb-2">Select Locations</h2>
         <div className="text-dark text-sm">
           <p className="mb-1">
@@ -56,7 +56,9 @@ export default function MapView() {
             <strong>Destination:</strong> {destination?.name || "None selected"}
           </p>
         </div>
-      </div> */}
+      </div>
+
+      <div>Mena</div>
 
       <style jsx>{`
         .bg-primary {
