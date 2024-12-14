@@ -11,10 +11,8 @@ export default function Home() {
       <div className="">
         <Hero />
         <Features />
-        <Footer />
-      </div>
-      <div className="">
         <MapView />
+        <Footer />
       </div>
     </div>
   );
